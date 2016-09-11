@@ -1,0 +1,32 @@
+Source: python-msrestazure
+Section: python
+Priority: optional
+Maintainer: Antoine R. Dumont <antoine.romain.dumont@gmail.com>
+Build-Depends: debhelper (>= 9),
+               dh-python,
+               python-all,
+               python-setuptools,
+               python-msrest,
+               python3-all,
+               python3-setuptools,
+               python3-msrest
+Standards-Version: 3.9.6
+X-Python-Version: >= 2.7
+X-Python3-Version: >= 3.0
+Homepage: https://github.com/xingwu1/autorest
+
+Package: python-msrestazure
+Architecture: all
+Depends: python3-msrest,
+         ${misc:Depends},
+         ${python:Depends}
+Description: AutoRest swagger generator Azure specific python client runtime
+ This is the Python 2 version of the package.
+
+Package: python3-msrestazure
+Architecture: all
+Depends: python3-msrest,
+         ${misc:Depends},
+         ${python3:Depends}
+Description: AutoRest swagger generator Azure specific python client runtime
+ This is the Python 3 version of the package.
