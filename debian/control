@@ -1,7 +1,7 @@
 Source: python-msrestazure
 Section: python
 Priority: optional
-Maintainer: Antoine R. Dumont <antoine.romain.dumont@gmail.com>
+Maintainer: Debian Azure Packaging Team <pkg-azure-team@lists.alioth.debian.org>
 Build-Depends: debhelper (>= 9),
                dh-python,
                python-all,
