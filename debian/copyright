@@ -2,16 +2,16 @@ Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: msrest
 Upstream-Contact: ptvshelp@microsoft.com
 Source: https://github.com/Azure/autorest/tree/master/src/client/Python/msrest
-Debianized-By: Antoine R. Dumont <antoine.romain.dumont@gmail.com>
+Debianized-By: Antoine R. Dumont (@ardumont) <antoine.romain.dumont@gmail.com>
 Debianized-Date: Sun Sep 11 16:12:37 CEST 2016
-
-Files: debian/*
-Copyright: 2016, Antoine R. Dumont <antoine.romain.dumont@gmail.com>
-License: GPL-2+
 
 Files: *
 Copyright: 2015-2016, Microsoft Corporation
 License: Expat
+
+Files: debian/*
+Copyright: 2016, Antoine R. Dumont (@ardumont) <antoine.romain.dumont@gmail.com>
+License: GPL-2+
 
 License: Expat
  Permission is hereby granted, free of charge, to any person obtaining
