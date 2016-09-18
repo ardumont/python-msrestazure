@@ -17,16 +17,14 @@ Homepage: https://github.com/xingwu1/autorest
 
 Package: python-msrestazure
 Architecture: all
-Depends: python3-msrest,
-         ${misc:Depends},
+Depends: ${misc:Depends},
          ${python:Depends}
 Description: AutoRest swagger generator Azure specific python client runtime
  This is the Python 2 version of the package.
 
 Package: python3-msrestazure
 Architecture: all
-Depends: python3-msrest,
-         ${misc:Depends},
+Depends: ${misc:Depends},
          ${python3:Depends}
 Description: AutoRest swagger generator Azure specific python client runtime
  This is the Python 3 version of the package.
