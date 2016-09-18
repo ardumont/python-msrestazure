@@ -15,7 +15,7 @@ Build-Depends: debhelper (>= 9),
 Standards-Version: 3.9.8
 X-Python-Version: >= 2.7
 X-Python3-Version: >= 3.0
-Homepage: https://github.com/Azure/autorest/tree/master/src/client/Python/msrest
+Homepage: https://github.com/Azure/autorest/tree/master/src/client/Python/msrestazure
 
 Package: python-msrestazure
 Architecture: all
