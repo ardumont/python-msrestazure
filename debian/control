@@ -21,12 +21,18 @@ Package: python-msrestazure
 Architecture: all
 Depends: ${misc:Depends},
          ${python:Depends}
-Description: AutoRest swagger generator Azure specific python client runtime
- This is the Python 2 version of the package.
+Description: Azure AutoRest Swagger generator for Python 2.x
+ The AutoRest tool generates client libraries for accessing Azure's
+ RESTful web services. Input to AutoRest is a spec that describes the
+ REST API using the Swagger format. This package contains a Swagger
+ generator for AutoRest for Python 2.x applications.
 
 Package: python3-msrestazure
 Architecture: all
 Depends: ${misc:Depends},
          ${python3:Depends}
-Description: AutoRest swagger generator Azure specific python client runtime
- This is the Python 3 version of the package.
+Description: Azure AutoRest Swagger generator for Python 3.x
+ The AutoRest tool generates client libraries for accessing Azure's
+ RESTful web services. Input to AutoRest is a spec that describes the
+ REST API using the Swagger format. This package contains a Swagger
+ generator for AutoRest for Python 3.x applications.
