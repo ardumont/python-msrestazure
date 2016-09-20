@@ -1,5 +1,5 @@
-python-msrestazure (0.4.2-1) UNRELEASED; urgency=medium
+python-msrestazure (0.4.2-1) unstable; urgency=medium
 
   * Initial release. (Closes: #838122)
 
- -- Antoine R. Dumont (@ardumont) <antoine.romain.dumont@gmail.com>  Sun, 11 Sep 2016 17:23:31 +0200
+ -- Antoine R. Dumont (@ardumont) <antoine.romain.dumont@gmail.com>  Tue, 20 Sep 2016 12:20:15 +0100
