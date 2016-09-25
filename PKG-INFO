@@ -1,6 +1,6 @@
 Metadata-Version: 1.1
 Name: msrestazure
-Version: 0.4.2
+Version: 0.4.3
 Summary: AutoRest swagger generator Python client runtime. Azure-specific module.
 Home-page: https://github.com/xingwu1/autorest/tree/python/ClientRuntimes/Python/msrestazure
 Author: Microsoft Corporation
@@ -22,6 +22,13 @@ Description: AutoRest: Python Client Runtime - Azure Module
         
         Release History
         ---------------
+        
+        2016-09-14 Version 0.4.3
+        ++++++++++++++++++++++++
+        
+        **Bugfixes**
+        
+        - Make AzureOperationPoller thread as daemon (do not block anymore a Ctrl+C) (https://github.com/Azure/autorest/pull/1379)
         
         2016-09-01 Version 0.4.2
         ++++++++++++++++++++++++
