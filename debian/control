@@ -17,13 +17,13 @@ Vcs-Browser: https://anonscm.debian.org/cgit/pkg-azure/python-msrestazure.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-azure/python-msrestazure.git
 X-Python-Version: >= 2.7
 X-Python3-Version: >= 3.0
-Homepage: https://github.com/Azure/autorest/tree/master/src/client/Python/msrestazure
+Homepage: https://github.com/Azure/msrestazure-for-python
 
 Package: python-msrestazure
 Architecture: all
 Depends: ${misc:Depends},
          ${python:Depends}
-Description: Azure AutoRest Swagger generator for Python 2.x
+Description: Runtime library for AutoRest generated Python 2.x clients
  The AutoRest tool generates client libraries for accessing Azure's
  RESTful web services. Input to AutoRest is a spec that describes the
  REST API using the Swagger format. This package contains a Swagger
@@ -33,7 +33,7 @@ Package: python3-msrestazure
 Architecture: all
 Depends: ${misc:Depends},
          ${python3:Depends}
-Description: Azure AutoRest Swagger generator for Python 3.x
+Description: Runtime library for AutoRest generated Python 3.x clients
  The AutoRest tool generates client libraries for accessing Azure's
  RESTful web services. Input to AutoRest is a spec that describes the
  REST API using the Swagger format. This package contains a Swagger
