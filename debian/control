@@ -7,9 +7,13 @@ Priority: optional
 Build-Depends: debhelper (>= 9),
                dh-python,
                python-all,
+               python-adal,
+               python-keyring,
                python-setuptools,
                python-msrest (>= 0.4.4~),
                python3-all,
+               python3-adal,
+               python3-keyring,
                python3-setuptools,
                python3-msrest (>= 0.4.4~)
 Standards-Version: 3.9.8
