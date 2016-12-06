@@ -1,3 +1,9 @@
+python-msrestazure (0.4.5-1) unstable; urgency=medium
+
+  * New upstream version 0.4.5
+
+ -- Antoine R. Dumont (@ardumont) <antoine.romain.dumont@gmail.com>  Tue, 06 Dec 2016 13:50:47 +0100
+
 python-msrestazure (0.4.4-1) unstable; urgency=medium
 
   * New upstream release.
