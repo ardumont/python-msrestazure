@@ -1,6 +1,11 @@
 AutoRest: Python Client Runtime - Azure Module
 ===============================================
 
+.. image:: https://travis-ci.org/Azure/msrestazure-for-python.svg?branch=master
+ :target: https://travis-ci.org/Azure/msrestazure-for-python
+
+.. image:: https://codecov.io/gh/azure/msrestazure-for-python/branch/master/graph/badge.svg
+ :target: https://codecov.io/gh/azure/msrestazure-for-python
 
 Installation
 ------------
@@ -14,6 +19,24 @@ To install:
 
 Release History
 ---------------
+
+2016-01-23 Version 0.4.7
+++++++++++++++++++++++++
+
+**Bugfixes**
+
+- Adding `accept_language` and `generate_client_request_id ` default values
+
+2016-12-12 Version 0.4.6
+++++++++++++++++++++++++
+
+**Bugfixes**
+
+Refactor Long Running Operation algorithm.
+
+- There is no breaking changes, however you might need to record again your offline HTTP records
+  if you use unittests with VCRpy.
+- Fix a couple of latent bugs
 
 2016-11-30 Version 0.4.5
 ++++++++++++++++++++++++
