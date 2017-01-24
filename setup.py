@@ -28,7 +28,7 @@ from setuptools import setup
 
 setup(
     name='msrestazure',
-    version='0.4.5',
+    version='0.4.7',
     author='Microsoft Corporation',
     packages=['msrestazure'],
     url='https://github.com/Azure/msrestazure-for-python',
@@ -45,6 +45,7 @@ setup(
         'Programming Language :: Python :: 3.3',
         'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
         'License :: OSI Approved :: MIT License',
         'Topic :: Software Development'],
     install_requires=[
